@@ -193,12 +193,12 @@ def user_stats(df):
 #option for the user to view 5 lines of raw data at a time
 def rawdata(city):
     df = pd.read_csv(CITY_DATA[city])
-    n = 5
+    n = 3
     view = input('\nWould you like to see the raw data? Enter yes or no.\n')
     if view.lower() == 'yes':
         check = True
         print(df.iloc[0:n])
-        n +=5
+        n +=3
     else:
         check = False
 
@@ -206,8 +206,8 @@ def rawdata(city):
         view = input('\nWould you like to continue seeing the raw data? Enter yes or no.\n')
         if view.lower() == 'yes':
             check = True
-            print(df.iloc[n-5:n])
-            n +=5
+            print(df.iloc[n-3:n])
+            n +=3
         else:
             check = False
 
