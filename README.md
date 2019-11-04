@@ -5,7 +5,10 @@ November 4, 2019
 Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project is to explore the US Bikeshare data provided.
+The program will ask the user which city they would like to view the data and then if they would like to filter by month and day.
+Once this is input, the user will be shown different metrics based off the bikeshare data.
+At the end, they will also be asked if they would like to view the raw data.
 
 ### Files used
 Include the files used
