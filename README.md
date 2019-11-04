@@ -11,7 +11,10 @@ Once this is input, the user will be shown different metrics based off the bikes
 At the end, they will also be asked if they would like to view the raw data.
 
 ### Files used
-Include the files used
+Data files from Washington, New York City, and Chicago
+  washington.csv
+  new_york_city.csv
+  chicago.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+For this project, starter code taken from the Udacity practice problems was used.
