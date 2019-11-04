@@ -186,7 +186,7 @@ def user_stats(df):
         print('Rider with most recent birth year:', recent_year)
         print('Rider with most common birth year:', most_year)
     except:
-        print('No birth year information to share')
+        print('No birth year information to share for this city')
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
